@@ -7,8 +7,7 @@ metadata:
 spec:
   containers:
   - name: kubia
-    image: localhost:5000/kubia:latest
-    imagePullPolicy: IfNotPresent
+    image: luksa/kubia
     resources:
       limits:
         memory: "128Mi"
